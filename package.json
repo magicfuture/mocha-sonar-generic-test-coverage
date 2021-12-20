@@ -1,15 +1,23 @@
 {
 	"description": "Mocha sonar generic tesst coverage integrator",
 	"homepage": "",
-	"keywords": ["mocha", "sonar", "coverage", "generic test"],
+	"keywords": [
+		"mocha",
+		"sonar",
+		"coverage",
+		"generic test"
+	],
 	"license": "MIT",
 	"main": "index.js",
 	"dependencies": {
+		"grunt-mocha-test": "^0.13.3",
 		"mkdirp": "0.5.1"
 	},
 	"devDependencies": {
 		"assert": "1.4.1",
-		"mocha": "^3.0.2"
+		"mocha": "^3.5.3",
+		"mocha-sonar-generic-test-coverage": "^0.0.6",
+		"mocha-sonar-reporter": "^0.1.6"
 	},
 	"scripts": {
 		"test": "node node_modules/mocha/bin/mocha test"

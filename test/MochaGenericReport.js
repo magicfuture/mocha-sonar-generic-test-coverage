@@ -10,7 +10,7 @@ describe('Mocha Sonar Generic Report', function(){
 	describe('Report', function(){
 
         it('Report To File Success with reporterOptions prefix', function(){
-            testReportToFileSuccess('reporterOptions')
+            testReportToFileSuccess('reportefrOptions')
         });
 
         it('Report To File Success with mstc prefix', function(){
