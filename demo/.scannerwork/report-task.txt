@@ -1,0 +1,5 @@
+projectKey=nodejs-mocha-2
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/nodejs-mocha-2
+ceTaskId=AX4d55K587ZLHL3JHQYq
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX4d55K587ZLHL3JHQYq

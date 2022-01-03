@@ -1,0 +1,2 @@
+ID="sonarq"$1;
+docker run -d -i -p9000:9000 --name $ID -v $PWD:/app defreitas/sonarqube:6.3.1-alpine

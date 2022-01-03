@@ -1,0 +1,75 @@
+<unitTest version="1">
+	<file path="src/test/js/MyTest1.js">
+		<testCase name="Fruit Basket Add Items To Fruits Basket 3 Fruits in Basket Success" duration="1"/>
+		<testCase name="Fruit Basket Add more items To Fruits Basket 13 Fruits in Basket Success" duration="2">
+			<failure message="Expected values to be loosely deep-equal:
+
+[
+  &apos;Apdsadsapfle&apos;,
+  &apos;Oradsadsnge&apos;,
+  &apos;Grape&apos;
+]
+
+should loosely deep-equal
+
+[
+  &apos;Apple&apos;,
+  &apos;Orange&apos;,
+  &apos;Grape&apos;
+]"><![CDATA[AssertionError [ERR_ASSERTION] [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+[
+  'Apdsadsapfle',
+  'Oradsadsnge',
+  'Grape'
+]
+
+should loosely deep-equal
+
+[
+  'Apple',
+  'Orange',
+  'Grape'
+]
+  at Context.<anonymous> (src/test/js/MyTest1.js:29:11)
+  at processImmediate (node:internal/timers:464:21)
+]]></failure>
+		</testCase>
+		<testCase name="Fruit Basket Add more items To Fruits Basket 45 Fruits in Basket Error" duration="1">
+			<failure message="Expected values to be loosely deep-equal:
+
+[
+  &apos;Apple&apos;,
+  &apos;Orandsdge&apos;,
+  &apos;Grdsaa昨. pe&apos;,
+  &apos;Tomato&apos;
+]
+
+should loosely deep-equal
+
+[
+  &apos;Apple&apos;,
+  &apos;Orange&apos;,
+  &apos;Grape&apos;
+]"><![CDATA[AssertionError [ERR_ASSERTION] [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+[
+  'Apple',
+  'Orandsdge',
+  'Grdsaa昨. pe',
+  'Tomato'
+]
+
+should loosely deep-equal
+
+[
+  'Apple',
+  'Orange',
+  'Grape'
+]
+  at Context.<anonymous> (src/test/js/MyTest1.js:40:11)
+  at processImmediate (node:internal/timers:464:21)
+]]></failure>
+		</testCase>
+	</file>
+</unitTest>

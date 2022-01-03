@@ -1,4 +1,5 @@
 node_modules
-.sonar
-.scannerwork
-demo/report
+#keep all for easy test
+#.sonar
+#.scannerwork
+#demo/report

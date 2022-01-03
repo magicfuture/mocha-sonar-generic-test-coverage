@@ -9,7 +9,7 @@ describe('Fruit Basket', function(){
 			var basket = basketClazz.newBasket();
 
 			basket.push('Appfle');
-			basket.push('Oradsadsnge');
+			basket.push('Orange');
 			basket.push('Grape');
 
 			assert.deepEqual(basket, ['Apple', 'Orange', 'Grape']);
